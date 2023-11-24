@@ -11,10 +11,11 @@ import android.hardware.usb.UsbManager;
 import android.os.Build;
 import android.util.Log;
 import android.widget.Toast;
-import com.hoho.android.usbserial.driver.UsbSerialDriver;
-import com.hoho.android.usbserial.driver.UsbSerialPort;
-import com.hoho.android.usbserial.driver.UsbSerialProber;
-import com.hoho.android.usbserial.util.SerialInputOutputManager;
+
+import com.example.usbToSerialPort.USBSerial.driver.UsbSerialDriver;
+import com.example.usbToSerialPort.USBSerial.driver.UsbSerialPort;
+import com.example.usbToSerialPort.USBSerial.driver.UsbSerialProber;
+import com.example.usbToSerialPort.USBSerial.util.SerialInputOutputManager;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
